@@ -13,7 +13,7 @@ import os
 BUILD_DIR=sys.argv[1]
 # Path to our message file
 MESSAGE_FILE=os.path.join(BUILD_DIR, "message.msg")
-
+print MESSAGE_FILE
 # Does the message file exist?
 if os.path.isfile(MESSAGE_FILE):
   # Let the user know we found the hallmarks of a 'Message-App' style app
